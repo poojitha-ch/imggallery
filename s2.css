@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v1_63 {
+    width: 100%;
+    height: 100%;
+    background: url("v1_63.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v1_69 {
+    width: 64px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 10vh;
+    left:50%;
+    font-family: Macondo Swash Caps;
+    font-weight: Regular;
+    font-size: 2em;
+    opacity: 1;
+    text-align: center;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v1_70 {
+    width: 67px;
+    height: 61px;
+    background: url("v1_70.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25vh;
+    left: 45%;
+    overflow: hidden;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v1_71 {
+    width: 67px;
+    height: 61px;
+    background: rgba(241, 240, 244, 0);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v1_72 {
+    width: 65px;
+    height: 49px;
+    background: url("v1_72.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 40vh;
+    left: 45%;
+    overflow: hidden;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v1_73 {
+    width: 65px;
+    height: 49px;
+    background: rgba(247, 244, 244, 0);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v1_74 {
+    width: 66px;
+    height: 60px;
+    background: url("v1_74.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 52vh;
+    left: 45%;
+    overflow: hidden;
+    padding: 6 0 0 0;
+    margin: 16px 5px 17px -44px;
+  }
+  .v1_75 {
+    width: 66px;
+    height: 60px;
+    background: rgba(244, 244, 246, 0);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v1_61 {
+    width: 39px;
+    height: 34px;
+   
+    opacity: 1;
+    position: absolute;
+    top: 590px;
+    left: 50%;
+    border-radius: 50%;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .name {
+    color: #fff;
+  }
+  .v2_127 {
+    
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18vh;
+    left: 45%;
+    font-family: Macondo Swash Caps;
+    font-weight: Regular;
+    font-size: 1.5em;
+    opacity: 1;
+    text-align: left;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v2_129 {
+    width: 107px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 27vh;
+    left: 52%;
+    font-family: Macondo Swash Caps;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .v2_131 {
+    
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 55vh;
+    left:52%;
+    font-family: Macondo Swash Caps;
+    font-weight: Regular;
+    font-size: 1.5em;
+    opacity: 1;
+    text-align: left;
+    padding: 6 0 0 0;
+    margin: 12px 6px 16px -41px;
+  }
+  .v2_130 {
+    
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 42vh;
+    left: 52%;
+    font-family: Macondo Swash Caps;
+    font-weight: Regular;
+    font-size: 1.5em;
+    opacity: 1;
+    text-align: left;
+    padding: 6 0 0 0;
+    margin: 4px 5px 17px -44px;
+  }
+  .nav {
+    background-color: rgb(198, 195, 195);
+    width: 100%; 
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end; 
+    /* border-radius: 10px; */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box; 
+    
+  }
+  .nav a{
+    text-decoration: none;
+    color: black;
+  }
+  .nav a:hover{
+    color:white;
+  }
+  

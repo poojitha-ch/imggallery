@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+   
+    background-image: url('incub.jfif.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    filter:brightness(30%);
+    z-index: -1;
+}
+
+/*.slideshow-container {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}*/
+.slideshow-container {
+    width: 50%; 
+    height: 100%;
+    position: fixed;
+    top: 8vh;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 ; 
+    box-sizing: border-box; 
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color:white;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.fade {
+    animation: fade 6s ease-in-out infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    20%, 50% {
+        opacity: 1;
+    }
+}
+.nav {
+    background-color: rgb(198, 195, 195);
+    width: 100%; 
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end; 
+    /* border-radius: 10px; */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+.content {
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 30px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.content p {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size:1.2em;
+}
+
+.responsive-button {
+    font-family: 'Macondo Swash Caps', cursive;
+    right: 5%;;
+    margin:10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color:rgb(32 31 35);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.responsive-button:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 767px) {
+    .slideshow-container {
+        top: 0%;
+       
+    }
+    .content{
+        top:55%;
+    }
+    .nav span{
+        font-size: 1rem;
+    }
+}
+/*.nav{
+    background-color: rgb(198, 195, 195);
+    width:100%;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    overflow:hidden;
+   flex-direction: row-reverse;
+    overflow: hidden;
+    position: fixed;
+}*/
